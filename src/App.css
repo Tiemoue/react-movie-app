@@ -1,20 +1,19 @@
 body{
   background: #141414;
-  color: #FFFFFF;
-
-}
-
-.row>*{
-  flex-shrink: 1;
-  padding-left: 0;
-  padding-right: 0;
+  color: #ffffff;
 }
 
 .movie-app > .row {
-  overflow-x: auto;
-  flex-wrap: nowrap;
+	overflow-x: auto;
+	flex-wrap: nowrap;
+
 }
 
+/* .row > * {
+  flex-shrink: 1;
+  padding-left: 0;
+  padding-right: 0;
+} */
 
 .image-container {
 	position: relative;
@@ -41,3 +40,4 @@ body{
 	padding: 20px;
 	text-align: center;
 }
+
